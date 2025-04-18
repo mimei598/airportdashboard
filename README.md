@@ -1,2 +1,40 @@
-# airportdashboard
-Just a fun project to learn Python and make an airplane arrivals dashboard for an airport
+# LSZH Airport Live Arrivals and Departures Dashboard
+
+TODO: add project description
+🛫🛬
+
+⚠️ Project is in early stage; development in progress
+
+---
+## ✈️ Features
+
+---
+## 🛠️ Installation
+### Prerequisites
+### Dependencies
+
+---
+## 🛩️ Usage
+
+---
+## ⚙️ Configuration
+
+---
+## 📦 File Structure
+
+---
+## 🔬 Example
+
+---
+## 📌 Notes and Limitations
+
+---
+## 🧭 Roadmap
+
+---
+## 🙏 Acknowledgements
+
+- OpenSky Network
+
+---
+## 📃 License

@@ -1,15 +1,16 @@
 import dash
 from dash import Dash, html, dcc, dash_table, Input, Output
 import pandas as pd
+import fetch_data
 
 # Load your cleaned data (from earlier OpenSky script)
 df = pd.read_csv("arrivals.csv")  # Replace with your actual filename
 
 # Convert timestamp to readable format if needed
-df['arrival_time'] = pd.to_datetime(df['arrival_time'])
+# df['arrival_time'] = pd.to_datetime(df['arrival_time'])
 
 # Select basic columns to show
-display_columns = ['arrival_time', 'callsign', 'origin', 'icao24']
+display_columns = ['Callsign', 'Altitude', 'Descent Rate']
 
 app = Dash(__name__)
 
